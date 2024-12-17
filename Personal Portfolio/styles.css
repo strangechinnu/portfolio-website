@@ -1,0 +1,143 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: #fff;
+    scroll-behavior: smooth;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ff4d4d;
+  }
+  
+  header, section, footer {
+    padding: 40px 20px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  button.btn, a.btn {
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 10px 5px;
+  }
+  
+  .btn:hover {
+    background-color: #e63946;
+  }
+  
+  /* Project Showcase */
+  .projects-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .project-card {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .project-card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .project-card h3 {
+    margin: 10px 0;
+    color: #ff4d4d;
+  }
+  
+  .project-card a {
+    color: #ff4d4d;
+    text-decoration: none;
+  }
+  
+  /* Contact Form */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  form input, form textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  form button {
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #111;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  /* About Section */
+#about {
+  padding: 60px 10%;
+  background-color: #181818;
+  color: #fff;
+}
+
+#about .container {
+  display: flex;
+  align-items: center; /* Vertically align items */
+  justify-content: space-between; /* Space between text and image */
+  gap: 40px; /* Adds space between columns */
+}
+
+.about-text {
+  flex: 1; /* Takes up 1/2 of the available space */
+  text-align: left; /* Align text to the left */
+}
+
+.about-text h2 {
+  font-size: 2.5rem;
+  color: #ff7f50;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 500px;
+}
+
+.about-image {
+  flex: 1; /* Takes up 1/2 of the available space */
+}
+
+.about-image img {
+  width: 100%;
+  max-width: 400px; /* Prevents oversized images */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
